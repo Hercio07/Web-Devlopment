@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escopo de variaveis</title>
+</head>
+<script>
+
+     // 3 escopos: global, funcao e o bloco
+    var serie = 'friends '
+
+    //escopo de bloco
+    if(true){
+        var serie2 = 'Suits'
+        //document.write(serie)
+    }
+
+    //document.write(serie2 +"<br><br>")
+    function x(){
+        var serie3 = ' The last of us';
+        document.write(serie+"<br>")
+        document.write(serie2+"<br>")
+        document.write(serie3+"<br>")
+        
+    }
+    
+    
+    x()
+</script>
+<body>
+    
+</body>
+</html>

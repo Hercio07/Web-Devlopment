@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulano estilos css com DOM</title>
+    <script>
+        function modificaEstilo(corFundo,l,c){
+
+            document.getElementById('quadrado').style.backgroundColor = corFundo;
+            document.getElementById('quadrado').style.width = l;
+            document.getElementById('quadrado').style.height = c;
+        }
+    </script>
+</head>
+<body >
+    <h3>Manipulando estilos</h3>
+    <hr>
+    <select name="option" id="op" title="Cores"> 
+    <option value="">Selecione</option>
+    <option onselect="modificaEstilo('black', '150px','200px')">Preto</option>
+    <option onselect="modificaEstilo('#00FF00', '200px')" >Verde</option>
+    <option onselect="modificaEstilo('#0000FF','20px','300px')" >Azul</option>
+    </select>
+    <div id="quadrado" style="border: solid 1px yellow; width: 100px;height: 100px;" ></div>
+</body>
+</html>

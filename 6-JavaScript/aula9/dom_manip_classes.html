@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <php
+    <title>Document</title>
+    
+    <style>
+      .estilo1 {
+        background-color: blue;
+        color: white;
+      }
+
+      .estilo2 {
+        width: 400px;
+        height: 50px;
+        background-color: aqua;
+        text-align: center;
+        color: white;
+        padding: 25px;
+      }
+    </style>
+
+    <script>
+      function modificaClasse() {
+        document.getElementById("mensagem").className = "estilo2";
+        
+      }
+    </script>
+
+  </head>
+
+  <body>
+    <div id="mensagem" class="estilo1">Modificando a classe do elemento</div>
+    <button type="button" onclick="modificaClasse()">Aplicar Classe</button>
+
+  </body>
+</html>

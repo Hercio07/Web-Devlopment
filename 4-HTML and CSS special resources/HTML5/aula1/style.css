@@ -1,0 +1,30 @@
+header{
+    border: 1px solid red;
+    background: #ccc;
+    padding: 10px;
+}
+
+nav{
+    border: 1px solid  green;
+    background: darksalmon;
+}
+
+footer{
+    border: 2px rgb(2, 2, 95) solid;
+    background-color: lime;
+    text-align: center;
+}
+
+article{
+    background-color: aquamarine;
+}
+
+section{
+    border: 2px dotted white;
+}
+
+aside{
+    background-color: blue;
+    color: white;
+}
+

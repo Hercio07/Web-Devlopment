@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<script>
+    // 11/01/2023
+    var data1 = new Date(2023,0,11)
+    //12/02/2023
+    var data2 = new Date(2023,1,12)
+
+    document.write(data1.toString())
+    document.write('<hr>')
+    document.write(data2.toString())
+
+    document.write('<br><br><hr/>')
+    // converter as datas em algo que possa calcular
+    document.write(data1.getTime())
+    document.write('<hr>')
+    document.write(data2.getTime())    
+
+    // 1 de janeiro de 1970
+    document.write('<br><br><hr/>')
+    var milisegundos_entre_datas = Math.abs(data1.getTime() - data2.getTime())
+    document.write(milisegundos_entre_datas)
+
+
+    var milisegundos_por_dia = (1*24*60*60*1000)
+    document.write('<br>1 dia tem: '+milisegundos_por_dia+ ' milisegundos')
+
+    document.write('<br><br><hr/>')
+document.write('A diferenca entre data 1 e data 2 e de '+Math.ceil(milisegundos_entre_datas / milisegundos_por_dia)+' dia(s)')
+
+</script>
+
+</head>
+<body>
+    
+</body>
+</html>

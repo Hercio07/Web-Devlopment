@@ -1,0 +1,44 @@
+.conteudo{
+    background: #dcdcdc;
+    
+    height: 500px;
+    display: flex;
+}
+
+.item{
+   /* width: 200px;*/
+    height: 100px;
+    background-color: white;
+    border: 1px solid grey;
+    margin: 10px;
+    flex-grow: 0;
+
+        /*Define a capacidade de reducao de tamanho do item*/
+        flex-shrink: 1;
+
+        /*Define o tamanho inicial do flex item antes da distribuicao do espaco restante*/
+        flex-basis: 200px;
+}
+
+
+.item1{
+    /*Define a proporcao de espaco ocupado por um item*/
+  flex-grow: 1;
+
+    /*Define a capacidade de reducao de tamanho do item*/
+    flex-shrink: 1;
+
+
+}
+
+.item2{
+    /*Define a proporcao de espaco ocupado por um item*/
+    flex-grow: 2;
+   flex-shrink: 2;
+}
+
+.item3{
+    /*Define a proporcao de espaco ocupado por um item*/
+    flex-grow: 2;
+    flex-shrink: 5;
+}

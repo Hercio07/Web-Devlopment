@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos de mouse</title>
+
+    <script>
+
+        function acao1() {
+            window.alert('Elemento foi clicado')
+        }
+        function acao2() {
+            window.alert('O cursor do mouse deixou a regiao do elemento html')
+        }
+         // onclick: dispara basta clicar uma vez
+         // ondbkclick: dispara basta clicar duas vezes
+         // onmouseup: dispara basta clicar,apertar e depois soltar o mouse
+         // onmouseover: dispara basta colocar o mouse por cima
+         // onmouseout: dispara basta passar e tirar o mouse 
+    </script>
+
+    <style>
+        div{
+            background: #ccc;
+            height: 150px;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+   
+    <div onclick="acao1()" onmouseout= "acao2()"></div>
+</body>
+</html>
