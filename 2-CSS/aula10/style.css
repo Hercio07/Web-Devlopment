@@ -1,0 +1,38 @@
+#principal{
+    border: 5px solid red;
+    background: violet;
+}
+
+.conteudo{
+    background: lightblue;
+    border : 1px solid gray;
+    width: 200px;
+    height: 200px;
+    /**Serve para criar margens entre tags/ divs*/
+    margin: 10px;
+    /*Serve para fazer um conteudo flutuar na pagina*/
+    float: right;
+  
+    
+}
+/*
+.conteudo1{
+    background: red;
+    border : 1px solid gray;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    float: left;
+}*/
+.conteudo0{
+    background: red;
+    border : 1px solid gray;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    
+}
+/*Limpar o fluxo flutuante*/
+.clear{
+    clear: both;
+}
