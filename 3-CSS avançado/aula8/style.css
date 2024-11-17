@@ -1,0 +1,82 @@
+
+/*Layout liqido*/
+/*So usa percentagens*/
+body{
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    background: #110f0f;
+}
+
+#container{
+width: 85%;
+min-width: 600px;
+max-width: 1080px;
+margin: 0 auto;
+background: #326789;
+
+}
+#marca{
+background: rgb(179, 135, 97) url(scarred-one-piece-zoro-4k-close-up-r1oyfu1fhnabpxhg.webp) center no-repeat;
+text-align: center;
+height: 200px;
+line-height: 200px;
+font-weight: bold;
+font-size: 2.5em;
+
+}
+#conteudo{
+width: 75%;
+float: right;
+
+}
+#conteudo-principal{
+    width: 62%;
+    float: left;
+    
+}
+#conteudo-secundario{
+    width: 35%;
+    float: right;
+    background: #265f77;
+
+}
+#navegacao{
+ width: 23%;
+ float: left;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ background: #26297e;
+
+}
+#rodape{
+clear: both;
+background: #12adc1;
+padding: 5px;
+text-align: center;
+}
+#navegacao ul{
+    list-style-type: none;
+}
+#navegacao li a{
+    
+    text-decoration: none;
+    color: #f2f2f2;
+}ul a:hover{
+    background: #75e2ff;
+    
+}
+#conteudo { 
+    color: #f2f2f2;
+}
+#conteudo-secundario h1,#conteudo-secundario h2,#conteudo-secundario h3,#conteudo-secundario p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#imagem{
+    width: 400px;
+}
+
+img.img-zoro{
+    width: 94%;
+    padding: 2%;
+}

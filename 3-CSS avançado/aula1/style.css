@@ -1,0 +1,35 @@
+/**{
+    border: 1px red solid;
+}
+
+h1{
+    color: green;
+}
+/*
+.verde{
+    color: greenyellow;
+}
+p.yellow{
+    color: yellow;
+}*/
+#cabecalho{
+    border: 1px solid blue;
+}
+lector filho/*Se*/
+li>a{
+    color: red;
+    text-decoration: none;
+}
+
+/*Link descendente*/
+p a{
+    color: green;
+}
+/*Selector de irmwo adjacente*/
+h1+p{
+    color: aquamarine;
+}
+
+h1~p{
+    color : pink;
+}

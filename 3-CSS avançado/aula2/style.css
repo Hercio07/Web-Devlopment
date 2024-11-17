@@ -1,0 +1,30 @@
+
+/*Heranca**/
+/*No selector geral todos herdam as suas caracteristicas*/
+*{
+    border: 1px blue dotted;
+}
+/*Enquanto no body so algumas e que sao herdadas mas por exemplo background ou border nao sao gerdadas para todas as tags*/
+body{
+    color: violet;
+
+}
+
+/*Especificidade*/
+p{
+    color: rosybrown !important;
+}
+p{
+    color: blue ;
+}
+
+/*Se um selector for mais especifico que o outro a regra mais especifica sera aplicada(tera a precedencia sobre regras mais gerais)**/
+
+*{
+    color:aqua;
+ background: rgb(29, 28, 28);   
+}
+h2 {
+    color: pink;
+}
+/*Id e mais especifico que uma class* e a class e mais especifica que uma propria tag/

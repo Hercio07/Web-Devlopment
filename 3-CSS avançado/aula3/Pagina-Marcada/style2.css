@@ -1,0 +1,27 @@
+ul{
+ margin: 0;
+ padding: 0;
+ list-style-type: none;  
+}
+ ul a{
+    width: 200px;
+    height: 40px;
+    display: block;
+    background:/* #f7b600*/ url(../Imagens/menu.png);
+    color: #000;
+    /*Serve para movimentar a imagem para esquerda ou dureita*/
+     text-indent: 40px ;
+     line-height: 40px;
+    text-decoration: none;
+}
+ 
+a:hover{
+    background: #f99200;
+    background-position: right bottom;
+    color: #fff;
+}
+#home .home a, #sobre .sobre a, #servicos .servicos a, #noticias .noticias a, #contacto .contacto a {
+    color: #fff;
+    background-color: #f99200;
+    background-position: right bottom;
+}

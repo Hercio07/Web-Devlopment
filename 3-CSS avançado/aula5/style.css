@@ -1,0 +1,35 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+    
+}
+
+ul li{
+    float: left;
+    background: rgb(255, 125, 4);
+}
+
+ul a{
+    display: block;
+    padding: 0.2em;
+    line-height: 3em;
+    text-decoration: none;
+    color: #fff;
+    background: url(../aula4/Imagens/divisor.png) repeat-y;
+    
+}
+ul a:hover{
+    color: #894a1f;
+}
+
+ul #atual{
+    background: rgb(245, 189, 6);
+}
+
+

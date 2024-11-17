@@ -1,0 +1,38 @@
+/*Barra de navegacao Horizontal*/
+ul {
+    padding: 0;
+    margin: 0 ;
+    list-style-type: none;
+    width: 720px;
+    background: #159cb0;
+    float: left;
+
+}
+
+ul li{
+    float: left;
+}
+
+ul a{
+    display: block;
+    padding: 0 2em;
+    line-height: 2.2em;
+    text-decoration: none;
+    color: #fff;
+    background: url(Imagens/divisor.png) repeat-y ;
+}
+
+ul .primeiro a{
+    background: none;
+}
+
+ul a:hover{
+    color: #085662;
+    background: #44cade;
+}
+
+#home .home a, #sobre .sobre a, #servicos .servicos a, #noticias .noticias a, #contacto .contacto a {
+    color: #085662;
+    background: #44cade;
+    
+}
